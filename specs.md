@@ -9,21 +9,45 @@ Overall strategy is: First make it work, then make it nice (=cheaper & more open
 Low cost (500eur) design for educational purposes and low budget. 3 typical freqs:
 
 * 0.05 T - central freq 2.15MHz, 20kHz to 50kHz bandwidth
-* 0.1  T - central freq 4 MHz 
-* 0.3  T - central freq 13MHz
-* 0.5  T - central freq 21 MHz 
+* 0.1  T - central freq 4 MHz, `@what@` bandwidth
+* 0.3  T - central freq 13MHz, `@what@` bandwidth
+* 0.5  T - central freq 21 MHz, `@what@` bandwidth
 
 ## Requirements
 
 Maybe it's good for me to share what (hardware wise) the 'ideal' spectrometer requirements would look:
 
 * 1xRF transmit channel - 16bit+
-* 3x kHz transmits - (~250 kHz) ~20 bit dacs for the gradient waveforms
-* 1x RF receive - 16bit 
-* ability to daisy chain for multiple receive channels (up to e.g. 16 or 32 RX channels would be great in the future to get an SNR boost)
+  * Voltage range: `@what@`
+  * Sampling speed and nb bits: `@what@`
+  * Duration of transmit: `@what@`
+* 3x kHz gradients transmits - (~250 kHz) ~20 bit dacs for the gradient waveforms
+  * 3 SPIs ?
+* 1x RF receive - Central freq @2, 4, 13 or 21Mhz. `@what@` bandwidth
+  * ADC 16bit 
+  * Duration of acquisition : `@what@`
+  * Gain for acquisition : `@what@`
+* Ability to daisy chain for multiple receive channels (up to e.g. 16 or 32 RX channels would be great in the future to get an SNR boost)
 * High frequency and phase stability (accurate and stable timings below 1us (preferably much less) jitter). One of the most important things in MR is the timing, both for transmission and reception (please check the IPSO part of the bruker hardware manual that I have attached). 
 
-GPIO pins to communicate with peripherals for for instance amplifier deblanking
+GPIO pins to communicate with peripherals for for instance amplifier deblanking. Logic:
+* Blanking
+* Sampling on
+* Gradients On
+* Pulse On
+
+## Storage
+* Images are 256x256*256 or above, 16bits imaginary
+  * 64MB / image
+  * 256kB / plane
+
+## Ideas
+
+PMODs! 8 IOs = loads
+
+* Transmit: AD9102 - 20 EUR
+  * 14 bits, 180Msps, 4096 word pattern
+  * @180msps, 4096pts = 22us.
 
 ## RF
 
@@ -62,15 +86,17 @@ I agree that might be a bit confusing. Green is not the acquisition, it is the g
 
 * I trust the Block pulse is a gate pulse - what is its lengths? A ms or so ? _There will be a pulse to gate the RF power amplifier and the TR switches. The pulse lengths depends on the RF pulse lenghts. So sth like 1-5ms._
 
-## Competition: Red Pitaya
+## Competition
 
 'It has shortcomings too. I think one of the reasons we've decided to work with it now is that it is being adopted across multiple sites so that the development burden is shared.'
 
 
 ## To sort
 
-Thanks a lot, that helps! 
+* https://upcommons.upc.edu/handle/2117/90394?locale-attribute=en FT600 +SDR
+   * https://www.maximintegrated.com/en/products/analog/data-converters/analog-front-end-ics/MAX5866.html
 
+* AD8339 better ? DC to 50MHz
 
 
 
