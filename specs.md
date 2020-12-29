@@ -99,5 +99,12 @@ I agree that might be a bit confusing. Green is not the acquisition, it is the g
 * AD8339 better ? DC to 50MHz
 
 
+## Resources:
+
+* https://www.researchgate.net/publication/232935201_A_digital_receiver_module_with_direct_data_acquisition_for_magnetic_resonance_imaging_systems
+  * AD9852 DDS + direct sampling
+* https://www.researchgate.net/publication/231108694_A_single-board_NMR_spectrometer_based_on_a_software_defined_radio_architecture
+* https://www.researchgate.net/publication/51189854_A_versatile_pulse_programmer_for_magnetic_resonance_imaging
+* https://www.researchgate.net/publication/265176277_Comparison_of_Analog_and_Digital_Transceiver_Systems_for_MR_Imaging
 
 
