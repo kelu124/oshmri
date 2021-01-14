@@ -9,24 +9,25 @@ Overall strategy is: First make it work, then make it nice (=cheaper & more open
 Low cost (500eur) design for educational purposes and low budget. 3 typical freqs:
 
 * 0.05 T - central freq 2.15MHz, 20kHz to 50kHz bandwidth
-* 0.1  T - central freq 4 MHz, `@what@` bandwidth
-* 0.3  T - central freq 13MHz, `@what@` bandwidth
-* 0.5  T - central freq 21 MHz, `@what@` bandwidth
+* 0.1  T - central freq 4 MHz, up to 500kHz bandwidth
+* 0.3  T - central freq 13MHz, up to 500kHz bandwidth
+* 0.5  T - central freq 21 MHz, up to 500kHz bandwidth
 
 ## Requirements
 
 Maybe it's good for me to share what (hardware wise) the 'ideal' spectrometer requirements would look:
 
 * 1xRF transmit channel - 16bit+
-  * Voltage range: `@what@`
-  * Sampling speed and nb bits: `@what@`
-  * Duration of transmit: `@what@`
-* 3x kHz gradients transmits - (~250 kHz) ~20 bit dacs for the gradient waveforms
-  * 3 SPIs ?
-* 1x RF receive - Central freq @2, 4, 13 or 21Mhz. `@what@` bandwidth
+  * Voltage range: up to 1Vpp	
+  * Sampling speed and nb bits: `@what@` -> _flexible_
+  * Duration of transmit: up to 10ms, typically shorter.
+* 4x kHz gradients transmits - (~250 kHz) ~20 bit dacs for the gradient waveforms
+  * 4 SPIs ?
+* 1x RF receive - Central freq @2, 4, 13 or 21Mhz. 
+  * _BW on the Rx side nice-to-have would be 500 kHz, practically I think 50 kHz would satisfy most needs_
   * ADC 16bit 
-  * Duration of acquisition : `@what@`
-  * Gain for acquisition : `@what@`
+  * Duration of acquisition : up to 20ms
+  * Gain for acquisition : 0 to 30dB
 * Ability to daisy chain for multiple receive channels (up to e.g. 16 or 32 RX channels would be great in the future to get an SNR boost)
 * High frequency and phase stability (accurate and stable timings below 1us (preferably much less) jitter). One of the most important things in MR is the timing, both for transmission and reception (please check the IPSO part of the bruker hardware manual that I have attached). 
 
