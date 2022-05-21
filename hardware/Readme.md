@@ -38,8 +38,18 @@ Maybe it's good for me to share what (hardware wise) the 'ideal' spectrometer re
   * Voltage range: up to 1Vpp	
   * Sampling speed and nb bits: `@what@` -> _flexible_
   * Duration of transmit: up to 10ms, typically shorter.
+
+#### Transmit
+
+The minimum number of transmission channels is four (1x Tx RF, 3x Gradients). Is a higher number (how many?) in transmission channels desirable? e.g. for:
+* broad BW excitation
+* spatial encoding
+
 * 4x kHz gradients transmits - (~250 kHz) ~20 bit dacs for the gradient waveforms
   * 4 SPIs ?
+
+#### Receive
+
 * 1x RF receive - Central freq @2, 4, 13 or 21Mhz. 
   * _BW on the Rx side nice-to-have would be 500 kHz, practically I think 50 kHz would satisfy most needs_
   * ADC 16bit 
@@ -48,6 +58,7 @@ Maybe it's good for me to share what (hardware wise) the 'ideal' spectrometer re
 * Ability to daisy chain for multiple receive channels (up to e.g. 16 or 32 RX channels would be great in the future to get an SNR boost)
 * High frequency and phase stability (accurate and stable timings below 1us (preferably much less) jitter). One of the most important things in MR is the timing, both for transmission and reception (please check the IPSO part of the bruker hardware manual that I have attached). 
 
+A higher number of receive channels increases SNR. 16-32 receive channels desirable.
 
 ### ADC
 
@@ -136,6 +147,24 @@ I agree that might be a bit confusing. Green is not the acquisition, it is the g
 
 * AD8339 better ? DC to 50MHz
 
+## Ideas:
+
+#### Core PMODs
+
+* Board central + extesions
+  * xPMOD DAC for pulse (MRI)
+  * 1PMOD for pulse (ultrasound)
+  * 2PMOD ADC for acquisition - onboard + gain -- common
+  * 1PMOD 4 Gradients (MRI)
+  * 1PMOD for HV (ultrasound + external alim)
+* Comm
+  * 2PMOD for USB3: FT600
+  * 2PMOD for USB3: CH569
+* Comm output:
+  * Msi001 Msi2500 for USB
+
+#### Backlog for PMODS
+
 ## Competition
 
 Commercially available spectrometers (>2000€)
@@ -177,3 +206,12 @@ There are a couple of existing possibilities to enable this:
 * Python based backend programming. 
 * Extend Pulseq framework Ref, then GPI Ref or other higher level sequence programming packages can be used for easy programming of pulse sequences. 
 * Compatibility with gnuRadio (https://www.gnuradio.org/), then the grMRI framework can be used and extend to program pulse sequences Ref. 
+
+
+
+# Qui ?
+
+* Lukas W
+* Lionel B
+* Tom OR
+
