@@ -10,6 +10,43 @@
 
 ![](top.png)
 
+
+## PMODs specs
+
+### AFE #1 (ADC)
+* 1 dual PMOD, 12ADCbits+1clk + 1SPI (without MISO): based on the AD8331+ADC+DAC from https://github.com/kelu124/lit3rick/ (altium source in hardware folder) . Connector in: SMA, with MD0100 to protect. Possible elements:
+  * AD8331
+  * ADC: AD9629BCPZ-65: 12bits,
+  * DAC: MCP4812-E/MS
+
+![](pmods/AFE1.drawio.png)
+
+
+### AFE #2 (SDR)
+* Using the SDR chips: https://pbs.twimg.com/media/FLk5M53XsAIO2Jr?format=jpg&name=large path for 0-30MHz - IOs on the PMOD would be IO0..3 and the 4 SPI signals (for the DAC coupled to AD8331)
+* Input as SMA, going to MD0100, AD8331, then MSI001, MSI2500, usb output.
+
+![](pmods/AFE2.drawio.png)
+
+### Ultrasound PULSER
+
+* Only logic through PMOD. 
+* External GPIOs for +HV, -HV, GND. 
+* Connector out: SMA.
+* Ref design : https://www.arrow.com/en/reference-designs/high-voltage-pulser-circuit-using-the-md1213-and-tc6320-100v-ultrasound-pulser/4e167e0bac7f3ae2900d35260e7663cc 
+
+![](pmods/USPulser.drawio.png)
+
+### GRADIENTS PMOD
+
+* Objective is to be able to produce 4 waveformes similar to those: https://github.com/kelu124/oshmri/tree/main/hardware#gradients
+* 4 DACs outputs, 10bits (or more) : https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2634.pdf
+* there are already schematics and altium sources at
+https://www.mouser.fr/ProductDetail/Analog-Devices/DC1488A-A?qs=ytflclh7QUXpxdBLSaXWCQ%3D%3D ( the only thing would be for outputs to be between -Vref and +Vref - using possibly a max1721 for neg. 3.3v ).
+
+![](pmods/Gradients.png)
+
+
 # Specs
 
 
@@ -164,6 +201,11 @@ I agree that might be a bit confusing. Green is not the acquisition, it is the g
   * Msi001 Msi2500 for USB
 
 #### Backlog for PMODS
+
+* __ACQ__: 1 dual PMOD, 12ADCbits+1clk + 1SPI (without MISO): based on the AD8331+ADC+DAC from https://github.com/kelu124/lit3rick/ . Connector in: SMA, with MD0100 to protect.
+* __USPULSE__: 1 single PMOD: for the concept here: https://www.arrow.com/en/reference-designs/high-voltage-pulser-circuit-using-the-md1213-and-tc6320-100v-ultrasound-pulser/4e167e0bac7f3ae2900d35260e7663cc . Only logic through PMOD. External GPIOs for +HV, -HV, GND. Connector out: SMA.
+* __4GRADs__ 1 PMOD: 4 DACs outputs, 10bits (or more) to start with. MCP48CMB24-E/ML could work, maybe? Objective is to be able to produce 4 waveformes similar to those: https://github.com/kelu124/oshmri/tree/main/hardware#gradients
+* __SDR ACQ__: https://pbs.twimg.com/media/FLk5M53XsAIO2Jr?format=jpg&name=large path for 0-30MHz - IOs on the PMOD would be IO0..3 and the 4 SPI signals (for the DAC coupled to AD8331) Input as SMA, going to MD0100, AD8331, then MSI001, MSI2500, usb output.
 
 ## Competition
 
