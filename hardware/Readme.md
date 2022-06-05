@@ -222,6 +222,9 @@ Commercially available spectrometers (>2000€)
 * Ettus USRP SDR
 *  Aspect Imaging – AMOS
 
+## Pulser
+
+![](an-h53_fig.6.jpg)
 
 ## Resources:
 
