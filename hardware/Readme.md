@@ -14,6 +14,7 @@
 ## PMODs specs
 
 ### AFE #1 (ADC)
+
 * 1 dual PMOD, 12ADCbits+1clk + 1SPI (without MISO): based on the AD8331+ADC+DAC from https://github.com/kelu124/lit3rick/ (altium source in hardware folder) . Connector in: SMA, with MD0100 to protect. Possible elements:
   * AD8331
   * ADC: AD9629BCPZ-65: 12bits,
@@ -22,11 +23,6 @@
 ![](pmods/AFE1.drawio.png)
 
 
-### AFE #2 (SDR)
-* Using the SDR chips: https://pbs.twimg.com/media/FLk5M53XsAIO2Jr?format=jpg&name=large path for 0-30MHz - IOs on the PMOD would be IO0..3 and the 4 SPI signals (for the DAC coupled to AD8331)
-* Input as SMA, going to MD0100, AD8331, then MSI001, MSI2500, usb output.
-
-![](pmods/AFE2.drawio.png)
 
 ### Ultrasound PULSER
 
@@ -36,7 +32,7 @@
 * External GPIOs for +HV, -HV, GND. 
 * Internal : 
   * Positive: 3.3V -> 5V booster ; 
-  * Negative: -5V rail : https://www.mouser.fr/new/texas-instruments/ti-lm27761-voltage-inverter/
+  * Negative: -5V rail for example (not mandatory if simpler exists) https://www.mouser.fr/new/texas-instruments/ti-lm27761-voltage-inverter/
   * Design similar to the HV connector on lit3rick (jumpers to connect 5V to HV and -5V to -HV 
 * Connector out: SMA.
 * Ref design : https://www.arrow.com/en/reference-designs/high-voltage-pulser-circuit-using-the-md1213-and-tc6320-100v-ultrasound-pulser/4e167e0bac7f3ae2900d35260e7663cc 
@@ -51,6 +47,12 @@
 https://www.mouser.fr/ProductDetail/Analog-Devices/DC1488A-A?qs=ytflclh7QUXpxdBLSaXWCQ%3D%3D ( the only thing would be for outputs to be between -Vref and +Vref - using possibly a max1721 for neg. 3.3v ).
 
 ![](pmods/Gradients.png)
+
+### !! NOT FOR THIS ONE - AFE #2 (SDR)
+* Using the SDR chips: https://pbs.twimg.com/media/FLk5M53XsAIO2Jr?format=jpg&name=large path for 0-30MHz - IOs on the PMOD would be IO0..3 and the 4 SPI signals (for the DAC coupled to AD8331)
+* Input as SMA, going to MD0100, AD8331, then MSI001, MSI2500, usb output.
+
+![](pmods/AFE2.drawio.png)
 
 
 # Specs
