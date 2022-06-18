@@ -30,8 +30,14 @@
 
 ### Ultrasound PULSER
 
-* Only logic through PMOD. 
+* Only logic through PMOD: 
+  * positivepulse, negativepulse, damp.
+  * Expose remaining IOs on a 2.54" rail on the PMOD board (with 3.3V and GND as well)
 * External GPIOs for +HV, -HV, GND. 
+* Internal : 
+  * Positive: 3.3V -> 5V booster ; 
+  * Negative: -5V rail : https://www.mouser.fr/new/texas-instruments/ti-lm27761-voltage-inverter/
+  * Design similar to the HV connector on lit3rick (jumpers to connect 5V to HV and -5V to -HV 
 * Connector out: SMA.
 * Ref design : https://www.arrow.com/en/reference-designs/high-voltage-pulser-circuit-using-the-md1213-and-tc6320-100v-ultrasound-pulser/4e167e0bac7f3ae2900d35260e7663cc 
 
@@ -225,6 +231,7 @@ Commercially available spectrometers (>2000€)
 ## Pulser
 
 ![](an-h53_fig.6.jpg)
+
 
 ## Resources:
 
