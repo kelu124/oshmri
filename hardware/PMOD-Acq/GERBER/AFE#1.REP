@@ -1,0 +1,156 @@
+*************************************************************
+FileName = AFE#1.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\matrix\matrix
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\profile
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\stephdr
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\int1__gnd_\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\int1__gnd_\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\int2__gnd_\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\int2__gnd_\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\keep-out_layer\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\keep-out_layer\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_1\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_1\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_5\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_5\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_8\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_8\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\bottom_layer\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\bottom_layer\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_13\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_13\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_14\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_14\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_15\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\mechanical_15\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\top_solder\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\drill\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\drill\tools
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\top_paste\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\top_layer\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\top_layer\attrlist
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\steps\pcb\eda\data
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_40\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\s31.4961_230\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_230\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_320\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect32x12_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect32x12_40\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\s128_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect33.5906x33.1969_40\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect33.5906x33.1969_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\s39.4961_230\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect33.5906x33.1969_230\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect33.5906x33.1969_320\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect40x20_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect40x20_40\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\s136_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_40\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\s31.4961_230\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_230\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_320\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect32x12_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect32x12_40\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\s128_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_40\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\s31.4961_230\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_230\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect25.5906x25.1969_320\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect32x12_130\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\rect32x12_40\features
+
+Generated File : E:\FREEL\Luc\PMODs\AFE# 1\Project Outputs for AFE# 1\odb\symbols\s128_130\features
+

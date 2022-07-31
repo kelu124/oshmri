@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [AFE# 1.PrjPcb]
+   Generated File[AFE#1-Plated.TXT]
+   Generated File[AFE#1-BoardEdgeRout.TXT]
+   Generated File[AFE#1.LDP]
+   Generated File[AFE#1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 3:58:20 PM On 7/29/2022
