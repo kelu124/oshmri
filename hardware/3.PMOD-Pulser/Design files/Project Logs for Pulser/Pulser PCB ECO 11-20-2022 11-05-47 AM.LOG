@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=+5V Pin=JP1-1
+Removed Pin From Net: NetName=-5V Pin=JP2-1
+Change Component Footprint: Designator=JP1 Old Footprint=HDRV2W66P0X254_1X2 New Footprint=HDRV3W96P0X254_1X3_721X234X869P
+Change Component Footprint: Designator=JP2 Old Footprint=HDRV2W66P0X254_1X2 New Footprint=HDRV3W96P0X254_1X3_721X234X869P
+Change Component Comment : Designator=JP1 Old Comment= New Comment=5-146281-3
+Change Component Comment : Designator=JP2 Old Comment= New Comment=5-146281-3
+Change component parameters: Designator = "JP1"; Footprint = "HDRV3W96P0X254_1X3_721X234X869P"; UniqueID = "\MMYCWLQE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "5-146281-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/5-146281-3/te-connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F146281%7FG2%7Fpdf%7FEnglish%7FENG_CD_146281_G2.pdf%7F5-146281-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "8.69mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "5-146281-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "571-5-146281-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-146281-3?qs=bwpFY26eRVc0RlLXOkMSNw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "JP2"; Footprint = "HDRV3W96P0X254_1X3_721X234X869P"; UniqueID = "\THODJSUK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "5-146281-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/5-146281-3/te-connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F146281%7FG2%7Fpdf%7FEnglish%7FENG_CD_146281_G2.pdf%7F5-146281-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "8.69mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "5-146281-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "571-5-146281-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-146281-3?qs=bwpFY26eRVc0RlLXOkMSNw%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=JP1-1
+Added Pin To Net: NetName=+5V Pin=JP1-3
+Added Pin To Net: NetName=GND Pin=JP2-1
+Added Pin To Net: NetName=-5V Pin=JP2-3
+Added Room: Name=Pulser

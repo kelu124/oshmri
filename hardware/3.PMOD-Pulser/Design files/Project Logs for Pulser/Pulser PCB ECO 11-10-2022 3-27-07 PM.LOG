@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=JP1 Old Footprint=DS1027012AB801 New Footprint=HDRV2W66P0X254_1X2
+Change Component Footprint: Designator=JP2 Old Footprint=DS1027012AB801 New Footprint=HDRV2W66P0X254_1X2
+Added Room: Name=Pulser

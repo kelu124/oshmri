@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=+PULSE Pin=J1-1
+Removed Pin From Net: NetName=-PULSE Pin=J1-2
+Added Pin To Net: NetName=-PULSE Pin=J1-1
+Added Pin To Net: NetName=+PULSE Pin=J1-2
+Added Room: Name=Pulser

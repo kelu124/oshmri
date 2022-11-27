@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=DAMP Pin=J1-3
+Removed Pin From Net: NetName=D\A\M\P\ Pin=J1-4
+Change Component Comment : Designator=C3 Old Comment=cap0805 New Comment=cap0603
+Change Component Comment : Designator=C7 Old Comment=cap0805 New Comment=cap0603
+Change Component Comment : Designator=C2 Old Comment=cap1206 New Comment=cap0603
+Change Component Comment : Designator=C6 Old Comment=cap1206 New Comment=cap0603
+Added Pin To Net: NetName=D\A\M\P\ Pin=J1-3
+Added Pin To Net: NetName=DAMP Pin=J1-4
+Added Room: Name=Pulser
