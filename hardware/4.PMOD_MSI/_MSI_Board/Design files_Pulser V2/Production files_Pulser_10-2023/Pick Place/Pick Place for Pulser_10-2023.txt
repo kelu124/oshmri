@@ -1,0 +1,136 @@
+Altium Designer Pick and Place Locations
+E:\FREEL\Luc\New Pulser 10-2023\Design files\Project Outputs for Pulser_10-2023\Pick Place\Pick Place for Pulser_10-2023.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       29/10/23
+Time:       22:14
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment                  Layer    Footprint                           Center-X(mm) Center-Y(mm) Rotation Description                                                          
+IC7        TC74VHC08F_EL,K,F_       TopLayer SOIC127P780X190-14N_                15.8000      32.6500      90       Hardware                                                             
+IC6        SN74LVC2G04DRLR          TopLayer SOTFL50P160X60-6N                   7.9502       33.4518      0        "Integrated Circuit"                                                 
+LED5       LTST-C190GKT             TopLayer LEDC1608X90N                        46.1500      39.6500      270      LED                                                                  
+LED4       LTST-C190GKT             TopLayer LEDC1608X90N                        27.6500      39.6250      270      LED                                                                  
+LED3       LTST-C190GKT             TopLayer LEDC1608X90N                        29.8000      39.6250      270      LED                                                                  
+LED2       LTST-C190GKT             TopLayer LEDC1608X90N                        31.9250      39.6250      270      LED                                                                  
+LED1       LTST-C190GKT             TopLayer LEDC1608X90N                        34.0750      39.6250      270      LED                                                                  
+R15        0R                       TopLayer 0402_R                              17.5514      11.9380      360      Res_0402_EU                                                          
+R14        0R                       TopLayer 0402_R                              13.7922      11.9380      360      Res_0402_EU                                                          
+D4         MMBD7000HS-7-F           TopLayer SOT96P240X110-3N_                   11.5750      21.2000      360      Diode                                                                
+D3         MMBD7000HS-7-F           TopLayer SOT96P240X110-3N_                   16.0750      9.1750       270      Diode                                                                
+D2         MMBD7000HS-7-F           TopLayer SOT96P240X110-3N_                   12.3250      9.3000       270      Diode                                                                
+Y1         ABM8G-24.000MHZ-18-D2Y-T TopLayer ABM8G                               50.6750      30.7500      90       "Crystal or Oscillator"                                              
+GPIO3      TP                       TopLayer TP_1mm                              27.6500      33.3750      90       Connector                                                            
+GPIO2      TP                       TopLayer TP_1mm                              29.8000      33.3500      90       Connector                                                            
+GPIO1      TP                       TopLayer TP_1mm                              31.9000      33.3500      90       Connector                                                            
+GPIO0      TP                       TopLayer TP_1mm                              34.0250      33.3500      90       Connector                                                            
+TP1        TP                       TopLayer TP_1mm                              35.5500      33.3500      90       Connector                                                            
+R28        470R                     TopLayer 0402_R                              46.2000      36.3500      90       "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R27        470R                     TopLayer 0402_R                              27.6250      36.1750      90       "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R26        470R                     TopLayer 0402_R                              29.8000      36.2000      90       "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R25        470R                     TopLayer 0402_R                              31.9500      36.2000      90       "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R24        470R                     TopLayer 0402_R                              34.1000      36.2000      90       "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R23        10k                      TopLayer 0402_R                              17.6750      18.3250      360      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R22        10k                      TopLayer 0402_R                              17.7000      15.3750      360      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R21        10k                      TopLayer 0402_R                              17.7000      14.2750      360      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R20        10k                      TopLayer 0402_R                              33.4000      12.7250      270      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R19        158R                     TopLayer 0402_R                              38.8250      15.3750      360      "RES 18 OHM 1/16W 0402 SMD"                                          
+R18        84.5R                    TopLayer 0402_R                              32.7152      18.0086      360      "RES 10K OHM 1/16W 0402 SMD"                                         
+R17        158R                     TopLayer 0402_R                              38.8250      14.3750      360      "RES 18 OHM 1/16W 0402 SMD"                                          
+R16        84.5R                    TopLayer 0402_R                              32.6136      16.8148      360      "RES 10K OHM 1/16W 0402 SMD"                                         
+R13        10k                      TopLayer 0402_R                              50.8000      12.2000      180      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R12        10k                      TopLayer 0402_R                              41.2750      26.6250      180      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+L2         AIML-0805HC-1R5M-T       TopLayer INDC2012X95N                        37.2500      18.0750      0        Inductor                                                             
+L1         AIML-0805HC-1R5M-T       TopLayer INDC2012X95N                        36.5500      15.3250      270      Inductor                                                             
+K3         SMA_Edge                 TopLayer AMPHENOL_132357-11                  24.9750      3.4375       90       ""                                                                   
+K2         SMA_Edge                 TopLayer AMPHENOL_132357-11                  13.5750      3.5125       90       ""                                                                   
+J3         10118193-0001LF          TopLayer 101181930001LF                      53.4575      22.6000      90       Connector                                                            
+IC8        MCP4812-E_MS             TopLayer SOP65P490X110-8N                    9.1500       25.5750      360      "Integrated Circuit"                                                 
+IC5        TPS7A2033PDBVR           TopLayer SOT95P280X145-5N                    51.6726      35.4784      180      "Integrated Circuit"                                                 
+IC4        MSI2500                  TopLayer QFN50P500X500X90-33N-D              45.5750      27.1500      0        Connector                                                            
+D6         ESD101B102ELSE6327XTSA1  TopLayer ESD207B102ELE6327                   50.6000      21.6250      360      "TVS Diode (Bi-directional)"                                         
+D5         ESD101B102ELSE6327XTSA1  TopLayer ESD207B102ELE6327                   50.6000      22.9250      180      "TVS Diode (Bi-directional)"                                         
+C58        cap0402                  TopLayer 0402_C                              50.2250      19.8000      360      "Capacitor  0402 inch"                                               
+C56        cap0402                  TopLayer 0402_C                              17.0180      13.3604      360      "Capacitor  0402 inch"                                               
+C55        cap0402                  TopLayer 0402_C                              17.5750      16.3000      360      "Capacitor  0402 inch"                                               
+C54        cap0402                  TopLayer 0402_C                              17.5750      17.3000      360      "Capacitor  0402 inch"                                               
+C53        cap0402                  TopLayer 0402_C                              8.7500       13.5750      360      "Capacitor  0402 inch"                                               
+C52        cap0402                  TopLayer 0402_C                              8.2000       15.6250      90       "Capacitor  0402 inch"                                               
+C51        cap0603                  TopLayer C0805                               9.1750       11.4000      270      "Capacitor  0603 inch"                                               
+C50        cap0603                  TopLayer C0805                               6.7750       15.3000      270      "Capacitor  0603 inch"                                               
+C49        cap0603                  TopLayer 0402_C                              48.9750      8.4000       270      "Capacitor  0603 inch"                                               
+C46        cap0603                  TopLayer SM0603__3D_cap                      52.2226      37.7785      360      "Capacitor  0603 inch"                                               
+C45        cap0603                  TopLayer 0402_C                              47.9250      22.8500      270      "Capacitor  0603 inch"                                               
+C44        cap0603                  TopLayer 0402_C                              46.9500      22.8500      270      "Capacitor  0603 inch"                                               
+C43        cap0603                  TopLayer 0402_C                              45.9750      22.8500      270      "Capacitor  0603 inch"                                               
+C42        cap0603                  TopLayer 0402_C                              45.0000      22.8500      270      "Capacitor  0603 inch"                                               
+C41        cap0402                  TopLayer 0402_C                              50.1396      14.0716      90       "Capacitor  0402 inch"                                               
+C40        cap0402                  TopLayer 0402_C                              40.5250      14.8500      90       "Capacitor  0402 inch"                                               
+C39        cap0402                  TopLayer 0402_C                              47.1750      10.9250      90       "Capacitor  0402 inch"                                               
+C38        cap0402                  TopLayer 0402_C                              34.7000      18.0000      180      "Capacitor  0402 inch"                                               
+C37        cap0402                  TopLayer 0402_C                              34.7218      16.7640      180      "Capacitor  0402 inch"                                               
+C36        cap0402                  TopLayer 0402_C                              49.9500      17.7500      270      "Capacitor  0402 inch"                                               
+C35        cap0603                  TopLayer 0402_C                              44.0500      22.8500      270      "Capacitor  0603 inch"                                               
+B2         MIC5504-2.8YM5-TR        TopLayer SOT95P280X145-5N                    51.5000      9.9000       180      "MICROCHIP - MIC5504-2.8YM5-TR - LDO VOLT REG, 0.3A, 2.8V, SOT-23-5" 
+D1         BAV99-7-F                TopLayer SOT95P240X120-3N                    20.2000      21.7000      270      Diode                                                                
+SP1        "SolderPad D1mm_round"   TopLayer SolderPad_D1mm__round               29.0750      11.5500      270      "for finger touch"                                                   
+R11        10k                      TopLayer 0402_R                              32.6136      14.8082      180      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R10        10k                      TopLayer 0402_R                              32.6390      15.6972      180      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R9         10k                      TopLayer 0402_R                              32.7406      18.9230      180      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R8         12k                      TopLayer 0402_R                              31.3500      12.8000      270      "RES 12K OHM 1/16W 0402 SMD"                                         
+R7         280                      TopLayer 0402_R                              22.7750      18.1750      180      "RES 280 OHM 1/16W 0402 SMD"                                         
+R6         10k                      TopLayer 0402_R                              32.7406      19.8374      180      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R5         10k                      TopLayer 0402_R                              41.2750      27.7000      360      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R4         10k                      TopLayer 0402_R                              41.2750      28.6750      180      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R3         10K                      TopLayer 0402_R                              41.2750      29.6500      180      "RES 10K OHM 1/16W 1% 0402 SMD"                                      
+R2         510R                     TopLayer 0402_R                              50.3250      27.9000      180      "RES 280 OHM 1/16W 0402 SMD"                                         
+R1         390                      TopLayer 0402_R                              45.8216      20.2184      270      "RES 280 OHM 1/16W 0402 SMD"                                         
+C34        cap0603                  TopLayer 0402_C                              49.1476      35.0034      90       "Capacitor  0603 inch"                                               
+C33        cap0603                  TopLayer SM0603__3D_cap                      53.5500      12.3501      360      "Capacitor  0603 inch"                                               
+C31        cap0402                  TopLayer 0402_C                              48.6250      31.5500      270      "Capacitor  0402 inch"                                               
+C29        cap0402                  TopLayer 0402_C                              47.1000      20.1701      90       "Capacitor  0402 inch"                                               
+C28        cap0402                  TopLayer 0402_C                              41.8750      25.1500      90       "Capacitor  0402 inch"                                               
+C23        cap0402                  TopLayer 0402_C                              43.4340      20.9550      360      "Capacitor  0402 inch"                                               
+C6         cap0402                  TopLayer 0402_C                              7.7750       28.3500      90       "Capacitor  0402 inch"                                               
+C32        cap0402                  TopLayer 0402_C                              52.8000      30.3000      270      "Capacitor  0402 inch"                                               
+C30        cap0603                  TopLayer 0402_C                              48.9000      22.8500      270      "Capacitor  0603 inch"                                               
+C27        cap0402                  TopLayer 0402_C                              30.0250      23.4500      270      "Capacitor  0402 inch"                                               
+C26        cap0402                  TopLayer 0402_C                              31.0000      23.4500      270      "Capacitor  0603 inch"                                               
+C25        cap0402                  TopLayer 0402_C                              25.0000      23.4000      270      "Capacitor  0402 inch"                                               
+C24        cap0402                  TopLayer 0402_C                              25.9500      23.4000      270      "Capacitor  0603 inch"                                               
+C22        cap0402                  TopLayer 0402_C                              47.6500      31.5500      270      "Capacitor  0402 inch"                                               
+C21        cap0402                  TopLayer 0402_C                              30.4250      12.7000      270      "Capacitor  0402 inch"                                               
+C20        cap0402                  TopLayer 0402_C                              32.3088      12.8524      90       "Capacitor  0402 inch"                                               
+C19        cap0402                  TopLayer 0402_C                              24.5000      13.1500      360      "Capacitor  0402 inch"                                               
+C18        cap0402                  TopLayer 0402_C                              44.8310      20.0660      270      "Capacitor  0402 inch"                                               
+C17        cap0402                  TopLayer 0402_C                              22.6000      16.6500      90       "Capacitor  0402 inch"                                               
+C16        cap0402                  TopLayer 0402_C                              23.5250      16.6500      90       "Capacitor  0402 inch"                                               
+C15        cap0402                  TopLayer 0402_C                              43.3832      19.7612      180      "Capacitor  0402 inch"                                               
+C14        cap0402                  TopLayer 0402_C                              43.8750      10.9250      90       "Capacitor  0402 inch"                                               
+C13        cap0603                  TopLayer 0402_C                              41.1734      30.5816      0        "Capacitor  0603 inch"                                               
+C12        cap0402                  TopLayer 0402_C                              40.6000      17.9250      180      "Capacitor  0402 inch"                                               
+C10        cap0402                  TopLayer 0402_C                              22.4250      20.9750      270      "Capacitor  0402 inch"                                               
+C9         cap0402                  TopLayer 0402_C                              22.9000      19.2500      180      "Capacitor  0402 inch"                                               
+C8         cap0402                  TopLayer 0402_C                              21.6500      16.6500      90       "Capacitor  0402 inch"                                               
+C7         cap0402                  TopLayer 0402_C                              23.4250      20.9750      270      "Capacitor  0402 inch"                                               
+C5         cap0402                  TopLayer 0402_C                              40.6000      18.8750      180      "Capacitor  0402 inch"                                               
+C4         cap0603                  TopLayer 0402_C                              40.0500      16.6000      180      "Capacitor  0603 inch"                                               
+C3         cap0603                  TopLayer 0402_C                              50.7000      26.3000      270      "Capacitor  0603 inch"                                               
+C2         cap0603                  TopLayer 0402_C                              45.0250      31.3500      270      "Capacitor  0603 inch"                                               
+C1         cap0603                  TopLayer 0402_C                              43.8250      31.3750      270      "Capacitor  0603 inch"                                               
+C11        cap0402                  TopLayer 0402_C                              40.6000      19.8500      180      "Capacitor  0402 inch"                                               
+IC2        AD8331ARQZ               TopLayer SOP64P600X175-20N                   27.7000      17.2250      360      "Integrated Circuit"                                                 
+IC1        MSI001                   TopLayer QFN50P600X600X90-41N-D              45.8500      15.5000      90       "Integrated Circuit"                                                 
+U1         "T/R switch"             TopLayer SOT89-150P409X160-3N                16.0750      21.4250      90       ""                                                                   
+J2         534998-5                 TopLayer RHDR10W77P254X254_2X5_1270X503X635P 2.8950       13.5700      270      Connector                                                            
+J1         90122-0126               TopLayer HDRRA12W65P254_2X6_1516X250X615P    3.0300       29.5250      90       Connector                                                            
+IC3        HV7361GA-G               TopLayer BGA22C50P9X14_500X700X105           12.5000      16.6750      270      "Integrated Circuit"                                                 
+FB6        75R@100MHz               TopLayer SM0603_3D_res                       27.2001      23.8749      270      "chip inductance 0603"                                               
+FB5        75R@100MHz               TopLayer SM0603_3D_res                       28.7999      23.9001      90       "chip inductance 0603"                                               
+FB3        75R@100MHz               TopLayer SM0603_3D_res                       20.1751      17.7000      270      "chip inductance 0603"                                               
+FB2        75R@100MHz               TopLayer SM0603_3D_res                       54.5225      33.6285      90       "chip inductance 0603"                                               
+FB1        75R@100MHz               TopLayer SM0603_3D_res                       54.4501      9.8500       270      "chip inductance 0603"                                               
