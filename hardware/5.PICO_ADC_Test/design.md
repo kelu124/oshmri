@@ -5,6 +5,7 @@
 * Tool: KICAD
 * Dimension of the board: standard credit card
 * Layers: up to four
+* Passives: using 1206 as much as possible, spaced layout where feasible, clear silkscreen.
 
 ## Organisation
 
