@@ -19,9 +19,13 @@
   * AD8331: Variable gain (3 SPI IO)
   * (DAC to control AD8331 gain)
   * Acquisition: ADC10065, 10bits ADC (10IO + 1clk)
+  
 * Other side - exposes remaining 12 IOs.
   * PMOD extension with free IOs from PICO - reference as PMOD1A/PMOD1B (in [this picture](https://www.crowdsupply.com/img/26cc/b3ff769f-8195-40e5-88b3-47b8051c26cc/icebreaker-v1-0b-legend.jpg)), with 5V and GND in between. Contains 8 IOs each.
+  * [PMODs specification sheet](https://digilent.com/reference/_media/reference/pmod/pmod-interface-specification-1_2_0.pdf) as a PDF
   * In this case, providing 1 PMOD with 4 IO, 1 with 8 IOs
+  * 4 IO: design looks like in the spec sheet above, ref J2 (labeled C in red) in fig 3
+  * 8 IO PMODs: design looks like in the spec sheet above, J2 (labeled D in red) in fig 4
 
 # Previous designs to reuse:
 
