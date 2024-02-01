@@ -1,5 +1,11 @@
 # Project
 
+The resources the program uses are as follows
+* CPU -> 1 Core
+* RAM -> Total memory usage: 225,180 bytes (225KB)
+* PIO -> 2 PIOs --> PIO0 (1 State Machine) -> to get data from ADC and PIO1 (3 State Machines)-> to draw the graph on the VGA
+* PINS -> 10 pins for ADC 3 PINS for DAC and 3 PINS for VGA
+
 ## Design 
 
 * Tool: KICAD
