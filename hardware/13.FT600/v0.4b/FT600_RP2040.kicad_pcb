@@ -112,7 +112,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 4)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -22253,7 +22253,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "VER 0.4"
+	(gr_text "VER 0.4b"
 		(at 168.7 98.25 0)
 		(layer "F.SilkS" knockout)
 		(uuid "0ae2ca55-09f7-4518-9e14-39c1aceeb040")
@@ -22291,7 +22291,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "12/11/2024"
+	(gr_text "19/01/2025"
 		(at 168.55 100.3 0)
 		(layer "F.SilkS" knockout)
 		(uuid "415fd630-eaf2-4d73-8031-183840364aef")
@@ -22337,7 +22337,7 @@
 			(xy 125 48.5) (xy 175.5 48.5)
 		)
 		(height -2.75)
-		(gr_text "50.5000 mm"
+		(gr_text "50,5000 mm"
 			(at 150.25 44.6 0)
 			(layer "Dwgs.User")
 			(uuid "3f902f0f-4f9d-4373-b801-75297d06bb3f")
@@ -22370,7 +22370,7 @@
 			(xy 224.75 74.75) (xy 224.75 87.25)
 		)
 		(height -6)
-		(gr_text "12.5000 mm"
+		(gr_text "12,5000 mm"
 			(at 229.6 81 90)
 			(layer "Dwgs.User")
 			(uuid "6d315a43-b718-4f6a-8c63-137fa3ad7ccf")
@@ -22403,7 +22403,7 @@
 			(xy 125 102.5) (xy 210.5 102.5)
 		)
 		(height 5.25)
-		(gr_text "85.5000 mm"
+		(gr_text "85,5000 mm"
 			(at 167.75 107.75 0)
 			(layer "Dwgs.User")
 			(uuid "9893709e-7660-43e3-ae7a-82c073de77ec")
@@ -22436,7 +22436,7 @@
 			(xy 220.75 74.75) (xy 220.75 62.5)
 		)
 		(height 4)
-		(gr_text "12.2500 mm"
+		(gr_text "12,2500 mm"
 			(at 223.6 68.625 90)
 			(layer "Dwgs.User")
 			(uuid "b511f4ac-3f18-4ddd-9b13-5a3ad2a19932")
@@ -22469,7 +22469,7 @@
 			(xy 125 75.5) (xy 125 48.5)
 		)
 		(height -2.75)
-		(gr_text "27.0000 mm"
+		(gr_text "27,0000 mm"
 			(at 121.1 62 90)
 			(layer "Dwgs.User")
 			(uuid "b5c54197-d679-4730-9c24-6e1ba0829b87")
@@ -22502,7 +22502,7 @@
 			(xy 125 48) (xy 153.5 48)
 		)
 		(height -6.25)
-		(gr_text "28.5000 mm"
+		(gr_text "28,5000 mm"
 			(at 139.25 40.6 0)
 			(layer "Dwgs.User")
 			(uuid "b86a172c-4198-4c3b-a6f8-c797940eea3d")
@@ -22535,7 +22535,7 @@
 			(xy 125 75.5) (xy 125 102.5)
 		)
 		(height 2.75)
-		(gr_text "27.0000 mm"
+		(gr_text "27,0000 mm"
 			(at 121.1 89 90)
 			(layer "Dwgs.User")
 			(uuid "dce8724c-2dea-4e5a-b000-0900663abbf7")
